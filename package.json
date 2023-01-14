@@ -1,0 +1,27 @@
+{
+  "name": "tictactoe",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "D": "^1.0.0",
+    "phosphor-react": "^1.4.1",
+    "preact": "^10.11.3",
+    "react-modal": "^3.16.1",
+    "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.4.0",
+    "@types/react-modal": "^3.13.1",
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "prettier": "^2.8.2",
+    "typescript": "*",
+    "vite": "^4.0.0"
+  }
+}
